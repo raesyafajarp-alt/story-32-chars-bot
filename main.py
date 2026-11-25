@@ -3,12 +3,13 @@
 
 Writes a single Wi-Fi network name (at most 32 characters) to
 /output/entry.txt. The name is a joke that implies a whole story:
-a kid changed the Wi-Fi password, and only mum knows the new one.
+mum keeps changing the Wi-Fi password, and only she knows the new
+one — "again" turns one password change into a recurring saga.
 """
 
 import os
 
-ENTRY = "I changed it, ask your mother"
+ENTRY = "Ask mom, she changed it again"
 
 
 def main() -> None:
